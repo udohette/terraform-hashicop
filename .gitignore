@@ -1,0 +1,16 @@
+# Terraform working directory
+.terraform/
+# Terraform state - do not commit local state
+*.tfstate
+*.tfstate.*
+# Plan files
+*.tfplan
+# Variable files may contain sensitive values
+*.tfvars
+*.tfvars.json
+# Crash logs
+crash.log
+crash.*.log
+# Local CLI config
+.terraformrc
+terraform.rc
