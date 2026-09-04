@@ -108,7 +108,7 @@ resource "aws_instance" "web" {
     <html>
     <head><title>EI Terraform Lab</title></head>
     <body>
-      <h1>EI Technologies - Terraform Change Demonstration!</h1>
+      <h1>EI Technologies - Terraform Change applied to this config!</h1>
       <p>This Ubuntu EC2 server was provisioned with Terraform.</p>
       <p>Week 8 real-world Infrastructure as Code practical.</p>
     </body>
